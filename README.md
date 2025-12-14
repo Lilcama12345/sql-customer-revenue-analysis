@@ -1,13 +1,13 @@
 # Customer Behavior & Revenue Performance Analysis (SQL)
 
-## 📌 Project Overview
+##  Project Overview
 This project focuses on analyzing **customer behavior, transaction quality, and revenue performance** using transactional sales data stored in a **SQLite database**. The analysis aims to provide business insights that can support **customer retention strategies, payment optimization, and revenue growth**.
 
 This project is designed as an **intermediate-level SQL portfolio project**, building upon basic aggregation by incorporating customer-centric analysis and business-oriented metrics.
 
 ---
 
-## 🎯 Business Objectives
+##  Business Objectives
 The main objectives of this project are:
 - Identify high-value customers based on revenue contribution
 - Analyze repeat purchasing behavior
@@ -17,7 +17,7 @@ The main objectives of this project are:
 
 ---
 
-## 🗂️ Database Structure
+##  Database Structure
 The analysis is based on four main tables:
 
 - **customer**: customer demographic information
@@ -27,7 +27,7 @@ The analysis is based on four main tables:
 
 ---
 
-## 🧠 Analysis & SQL Queries
+##  Analysis & SQL Queries
 
 ### 1️⃣ Customer Lifetime Value (CLV – Simplified)
 Identifies customers who contribute the highest revenue.
@@ -116,7 +116,7 @@ ORDER BY total_revenue DESC;
 
 ---
 
-## 📊 Key Insights
+##  Key Insights
 Based on the analysis results, several insights can be derived:
 - Repeat customers contribute significantly higher total revenue compared to one-time buyers
 - Completed transactions dominate overall revenue contribution
@@ -125,7 +125,7 @@ Based on the analysis results, several insights can be derived:
 
 ---
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 - **Database**: SQLite
 - **Query Tool**: DB Browser for SQLite
 - **Language**: SQL
@@ -133,7 +133,7 @@ Based on the analysis results, several insights can be derived:
 
 ---
 
-## ▶️ How to Run the Project
+##  How to Run the Project
 1. Download the SQLite database file (`.db`)
 2. Open the database using **DB Browser for SQLite**
 3. Execute the SQL queries provided in this repository
